@@ -1,4 +1,5 @@
 node_modules/
-scripts/
+scripts/app.js
+scripts/app.js.map
 styles/
 config.codekit
