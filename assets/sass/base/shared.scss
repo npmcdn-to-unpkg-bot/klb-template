@@ -1,0 +1,7 @@
+.no-space {
+  padding: 0 !important;
+}
+
+.shadow {
+	@include box-shadow(4px, 4px, 16px, -4px, $shaded);
+}
