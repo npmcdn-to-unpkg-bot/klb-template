@@ -1,6 +1,5 @@
 node_modules/
-scripts/app.js
-scripts/app.js.map
+scripts/
 styles/
 images/
 pages/
