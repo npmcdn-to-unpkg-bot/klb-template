@@ -2,7 +2,6 @@
 var Klb = React.createClass({
     displayName: 'Klb',
     getInitialState() {
-        console.log(this.props.params.klb);
         var klb = data[this.props.params.klb];
         var chapter = klb.chapters[0];
         return {
@@ -11,6 +10,9 @@ var Klb = React.createClass({
             menuClasses: "animated bounceInDown",
             chapterClasses: "hidden"
         };
+    },
+    componentDidMount() {
+        document.title = this.state.klb.title;
     },
     onUpdate(chapter, show) {
         // Trigger the hiding/showing animations when chapter is selected/exited

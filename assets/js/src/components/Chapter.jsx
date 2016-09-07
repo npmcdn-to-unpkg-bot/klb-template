@@ -11,14 +11,14 @@ var Chapter = React.createClass({
     getInitialState(){
         return {
             classes: "hidden",
-            key: "p1"
+            key: this.props.chapter.parts[0].id
         };
     },
     handleSelect(key) {
         // We want different behaviour for the menubutton so we check for it
         if (key == "menubutt") {
             // Set the active tab to the first one
-            this.setState({key: "p1"});
+            this.setState({key: this.props.chapter.parts[0].id});
             // Trigger the hiding of the chapter
             this.props.onMenuIconClick(this.props.chapter, false);
         }
