@@ -44,7 +44,7 @@
       }
     }
 
-    &>ul>li, &>p>ul>li {
+    &>ul>li, &>ol>li, &>p>ul>li {
 
       &.box {
         list-style-image: url('images/assets/unticked.png');

@@ -55,8 +55,12 @@
           }
         }
       }
-      .menuicon {
-        height: 1.6em;
+      &.menubutt {
+        font-size: 2em;
+        &>a {
+          padding: 0 0.6em;
+          margin: 0;
+        }
       }
     }
   }

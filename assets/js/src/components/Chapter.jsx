@@ -63,9 +63,9 @@ var Chapter = React.createClass({
         });
 
         // Create the MenuButton from our component
-        var menuButt = <img src="images/main/menu.png" className="menuicon no-space" />;
+        var menuButt = <span className="glyphicon glyphicon-th-large menuicon no-space" aria-hidden="true"></span>;
         // Push the menu button onto the tab list
-        tabs.push(<NavItem eventKey="menubutt">{menuButt}</NavItem>);
+        tabs.push(<NavItem eventKey="menubutt" className="menubutt">{menuButt}</NavItem>);
         return (
             <div>
                 <Nav bsStyle="tabs">
