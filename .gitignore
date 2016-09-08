@@ -1,5 +1,5 @@
 node_modules/
-scripts/
+scripts/*
 !scripts/chapters.js
 styles/
 images/
