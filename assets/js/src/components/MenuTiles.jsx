@@ -14,7 +14,7 @@ var Menutiles = React.createClass({
 			)
 		});
 		return (
-			<div id="Menu-tile-container">
+			<div id="Menu-tile-container" className="flex">
 				{tiles}
 			</div>
 		)

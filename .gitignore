@@ -1,5 +1,6 @@
 node_modules/
 scripts/
+!scripts/chapters.js
 styles/
 images/
 pdf/

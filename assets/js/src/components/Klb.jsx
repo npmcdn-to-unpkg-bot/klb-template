@@ -7,7 +7,7 @@ var Klb = React.createClass({
         return {
             klb: klb,
             selected: chapter,
-            menuClasses: "animated bounceInDown",
+            menuClasses: "shadow animated bounceInDown",
             chapterClasses: "hidden"
         };
     },
@@ -24,7 +24,7 @@ var Klb = React.createClass({
         }
         else {
             this.setState({
-                menuClasses: "animated bounceInDown",
+                menuClasses: "shadow animated bounceInDown",
                 chapterClasses: "hidden"
             });
         }

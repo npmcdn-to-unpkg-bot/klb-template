@@ -3,7 +3,7 @@
   	z-index: 400;
 
   	.main-header-img {
-	  width: 60%;
+	  width: 100%;
 	  margin: 1em auto;
 	}
 	footer {
@@ -37,7 +37,6 @@
 	  	.menutile {
 	  		cursor: pointer;
 	  		z-index: 502;
-	  		margin-bottom: 1em;
 
 	  		&:hover{
 	  			opacity: 0.8;
@@ -50,19 +49,20 @@
 			}
 			.tile-title {
 			  	color: #dadada;
-			  	height: 2em;
 			  	text-shadow: 1px 1px #000;
+			  	padding: 0 2em;
+			  	width: 100%;
 			  	@include breakpoint(lg) {
-
+			  		font-size: 0.8em;
 				}
 				@include breakpoint(md) {
-
+					font-size: 1em;
 				}
 				@include breakpoint(sm) {
-
+					font-size: 1.4em;
 				}
 				@include breakpoint(xs) {
-
+					font-size: 1.6em;
 				}
 			}
 		}

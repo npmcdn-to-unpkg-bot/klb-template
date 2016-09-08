@@ -27,7 +27,7 @@ var Menutile = React.createClass({
 				onMouseLeave={this.mouseLeave}
 				onClick={this.handleClick}>
 				<img src={this.props.chapter.thumb} className="tile-img img-circle" />
-				<p className="text-uppercase text-center tile-title">{this.props.chapter.title}</p>
+				<p className="text-uppercase text-center tile-title hyphenate">{this.props.chapter.title}</p>
 			</div>
 		)
 	}

@@ -5,3 +5,34 @@
 .shadow {
 	@include box-shadow(4px, 4px, 16px, -4px, $shaded);
 }
+
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.w50px {
+	width: 50px;
+}
+
+.flex {
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+
+    &_div {
+    	flex: 1;
+    }
+    img {
+    	display: flex;
+    }
+    p {
+    	flex: 1;
+    	width: 60%;
+    }
+}
